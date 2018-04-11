@@ -6,7 +6,7 @@ from dongguan.items import DongguanItem
 """
 爬取东莞阳光网投诉帖子内容
 """
-#不太喜欢使用这个CrawlSpider类写爬虫，不按顺序爬，难以掌控，应该是学的太浅了吧。。。
+#有点不喜欢使用这个CrawlSpider类写爬虫，不按顺序爬，难以掌控过程，应该是学的太浅了吧。。。
 class SunSpider(CrawlSpider):
     name = 'sun'
     allowed_domains = ['wz.sun0769.com']
